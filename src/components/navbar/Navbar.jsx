@@ -20,12 +20,9 @@ function Navbar(props) {
                 <img src="src\images\logo.svg" alt="" />
             </div>
             <div className={styles.navbarNavigate}>
-                <ul>
-                    <li>{title[0].title}</li>
-                    <li>{title[1].title}</li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
             </div>
         </div>
     )
