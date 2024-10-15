@@ -43,12 +43,12 @@ function Navbar() {
             </nav>
             <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
                 <ul className="md:hidden p-4 text-center">
-                    <li className="my-5 border rounded-lg py-2 bg-white">Features</li>
-                    <li className="my-5 border rounded-lg py-2 bg-white">Compony</li>
-                    <li className="my-5 border rounded-lg py-2 bg-white">Carears</li>
-                    <li className="my-5 border rounded-lg py-2 bg-white">About</li>
-                    <li className="my-5 border rounded-lg py-2 bg-yellow-400">Sign in</li>
-                    <li className="my-5 border rounded-lg py-2 bg-green-500">Login</li>
+                    <li className="my-5 cursor-pointer border rounded-lg py-2 bg-white">Features</li>
+                    <li className="my-5 cursor-pointer border rounded-lg py-2 bg-white">Compony</li>
+                    <li className="my-5 cursor-pointer border rounded-lg py-2 bg-white">Carears</li>
+                    <li className="my-5 cursor-pointer border rounded-lg py-2 bg-white">About</li>
+                    <li className="my-5 cursor-pointer border rounded-lg py-2 bg-yellow-400">Sign in</li>
+                    <li className="my-5 cursor-pointer border rounded-lg py-2 bg-green-500">Login</li>
                 </ul>
             </div>
         </div>
