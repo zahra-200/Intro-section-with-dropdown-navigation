@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.side-menu {
+    position: fixed;
+    right: -280px;
+    width: 280px;
+    height: 100%;
+    background-color: #f7f7f7;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    display: none;
+}
+
+.side-menu.open {
+    right: 0;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .side-menu{
+        display: block;
+    }
+}
