@@ -20,7 +20,7 @@ function Navbar() {
                     <div className="flex justify-center items-center px-5">
                         <img src={Logo} className="" />
                     </div>
-                    <div className="hidden md:flex md:justify-center md:items-center md:gap-8 md:px-6" >
+                    <div className="hidden md:flex md:justify-center md:items-center md:gap-8 md:px-6">
                         <a className="p-2 border rounded-md" href="">Features</a>
                         <a className="p-2 border rounded-md" href="">Compony</a>
                         <a className="p-2 border rounded-md" href="">Carears</a>
